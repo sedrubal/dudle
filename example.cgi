@@ -21,6 +21,7 @@
 
 if __FILE__ == $0
 
+$: << '.'
 require "dudle"
 
 $d = Dudle.new

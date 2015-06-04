@@ -19,6 +19,7 @@
 # along with dudle.  If not, see <http://www.gnu.org/licenses/>.           #
 ############################################################################
 
+$: << '.'
 require "dudle"
 
 if $cgi.include?("poll")

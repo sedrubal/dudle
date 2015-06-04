@@ -23,7 +23,7 @@ require "time"
 require "pollhead"
 require "timepollhead"
 
-$KCODE = "u"
+#$KCODE = "u"
 class String
 	@@htmlidcache = {}
 	@@htmlidncache = {}

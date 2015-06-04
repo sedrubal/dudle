@@ -22,6 +22,7 @@
 
 if __FILE__ == $0
 
+$: << '.'
 $:.push("..")
 require "dudle"
 
