@@ -18,7 +18,7 @@
 # along with dudle.  If not, see <http://www.gnu.org/licenses/>.           #
 ############################################################################
 
-#$KCODE = "u"
+$KCODE = "u" if RUBY_VERSION < '1.9.0'
 require "yaml"
 require "cgi"
 
@@ -241,6 +241,7 @@ READY
 		lang = [
 			["en", "English"],
 			["es", "Español"],
+			["pt_BR", "Português brasileiro"],
 			["fr", "Français"],
 			["de", "Deutsch"],
 			["it", "Italiano"],
